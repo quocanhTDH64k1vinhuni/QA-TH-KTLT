@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="s h&#236;nh tr&#242;n"/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-26 03:29:49 PM"/>
+        <attribute name="created" value="QWRtaW47REVTS1RPUC1GRVQ2NThFOzIwMjQtMDktMjY7MDI6NTc6NDMgUE07MjgxNw=="/>
+        <attribute name="edited" value="QWRtaW47REVTS1RPUC1GRVQ2NThFOzIwMjQtMDktMjY7MDM6Mjk6NDkgUE07MTsyOTMx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;hello&quot;" newline="True"/>
+            <declare name="s" type="Integer" array="False" size=""/>
+            <declare name="r" type="Real" array="False" size=""/>
+            <output expression="&quot;vui long nhap r&quot;" newline="True"/>
+            <input variable="r"/>
+            <assign variable="s" expression="3.14*r^2"/>
+            <output expression="&quot;dien tich la:&quot;&amp;s" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
